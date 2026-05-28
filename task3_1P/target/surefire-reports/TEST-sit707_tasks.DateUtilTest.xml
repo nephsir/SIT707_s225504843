@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sit707_tasks.DateUtilTest" time="0.465" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\NLS\Desktop\ASSIGNMENTS POOL\707 NOTES\TASK SHEETS 707\3.1P-resources\task3_1P\target\test-classes;C:\Users\NLS\Desktop\ASSIGNMENTS POOL\707 NOTES\TASK SHEETS 707\3.1P-resources\task3_1P\target\classes;C:\Users\NLS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\NLS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Nairobi"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\NLS\AppData\Local\Temp\surefire14811883176183994267\surefirebooter-20260516135658506_3.jar C:\Users\NLS\AppData\Local\Temp\surefire14811883176183994267 2026-05-16T13-56-57_914-jvmRun1 surefire-20260516135658506_1tmp surefire_0-20260516135658506_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="sit707_tasks.DateUtilTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\NLS\Desktop\ASSIGNMENTS POOL\707 NOTES\TASK SHEETS 707\3.1P-resources\task3_1P\target\test-classes;C:\Users\NLS\Desktop\ASSIGNMENTS POOL\707 NOTES\TASK SHEETS 707\3.1P-resources\task3_1P\target\classes;C:\Users\NLS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\NLS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NLS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\NLS\Desktop\ASSIGNMENTS POOL\707 NOTES\TASK SHEETS 707\3.1P-resources\task3_1P"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\NLS\AppData\Local\Temp\surefire14811883176183994267\surefirebooter-20260516135658506_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="Evans Sang"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-18\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\NLS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NLS\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\NLS\Desktop\ASSIGNMENTS POOL\707 NOTES\TASK SHEETS 707\3.1P-resources\task3_1P"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oracle\bin;C:\Users\NLS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\NLS\AppData\Local\Programs\Python\Python312\;C:\Users\dbhomeXE\bin;C:\Users\NLS\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server Migration Assistant for MySQL\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\PuTTY\;C:\Users\NLS\Desktop\python\.venv\;C:\Spark\spark-3.5.1-bin-hadoop3\bin;C:\Program Files (x86)\NetSarang\Xshell 8\;E:\composer;C:\Program Files\Git\cmd;C:\Program Files\Tesseract-OCR;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PyManager\;C:\Users\NLS\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\NLS\AppData\Local\Programs\Python\Python314\;C:\Users\NLS\.local\bin;C:\Users\NLS\AppData\Local\Microsoft\WindowsApps;C:\Users\NLS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NLS\.dotnet\tools;C:\Program Files\MySQL\MySQL Server 8.3\bin;C:\Users\NLS\Downloads\sqldeveloper-23.1.1.345.2114-x64\sqldeveloper\sqldeveloper\bin;C:\Users\dbhomeXE\bin;C:\Users\NLS\AppData\Roaming\npm;C:\Users\NLS\AppData\Local\Programs\mongosh\;C:\Users\NLS\Desktop\python\env\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin;;C:\Users\NLS\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-21\bin;E:\XAMMPP\php;E:\XAMMPP\php\composer.phar;C:\Users\NLS\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Git\usr\bin\;C:\Program Files\Tesseract-OCR;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="test10B_15June1700" classname="sit707_tasks.DateUtilTest" time="0.11">
+    <system-out><![CDATA[=================================
+Test ID   : 10B
+Operation : increment()
+Input     : 15-6-1700
+Expected  : 16-6-1700
+Actual    : 16-6-1700
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testMinJanuary1ShouldDecrementToDecember31" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : 4B
+Operation : decrement()
+Input     : 1-1-2024
+Expected  : 31-12-2023
+Actual    : 31-12-2023
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentIdentity" classname="sit707_tasks.DateUtilTest" time="0.004">
+    <system-out><![CDATA[=================================
+Test ID   : Name
+Operation : student id
+Input     : s225504843
+Expected  : Not null
+Actual    : s225504843
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test9B_15Dec1994" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : 9B
+Operation : increment()
+Input     : 15-12-1994
+Expected  : 16-12-1994
+Actual    : 16-12-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testMinJanuary1ShouldIncrementToJanuary2" classname="sit707_tasks.DateUtilTest" time="0.008">
+    <system-out><![CDATA[=================================
+Test ID   : 3B
+Operation : increment()
+Input     : 1-1-2024
+Expected  : 2-1-2024
+Actual    : 2-1-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test2B_2June1994" classname="sit707_tasks.DateUtilTest" time="0.007">
+    <system-out><![CDATA[=================================
+Test ID   : 2B
+Operation : increment()
+Input     : 2-6-1994
+Expected  : 3-6-1994
+Actual    : 3-6-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test8B_15Nov1994" classname="sit707_tasks.DateUtilTest" time="0.008">
+    <system-out><![CDATA[=================================
+Test ID   : 8B
+Operation : increment()
+Input     : 15-11-1994
+Expected  : 16-11-1994
+Actual    : 16-11-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test6B_15Jan1994" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : 6B
+Operation : increment()
+Input     : 15-1-1994
+Expected  : 16-1-1994
+Actual    : 16-1-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testMaxJanuary31ShouldDecrementToJanuary30" classname="sit707_tasks.DateUtilTest" time="0.004">
+    <system-out><![CDATA[=================================
+Test ID   : 2B
+Operation : decrement()
+Input     : 31-1-2024
+Expected  : 30-1-2024
+Actual    : 30-1-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test3B_14June1994" classname="sit707_tasks.DateUtilTest" time="0.005">
+    <system-out><![CDATA[=================================
+Test ID   : 3B
+Operation : increment()
+Input     : 14-6-1994
+Expected  : 15-6-1994
+Actual    : 15-6-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test7B_15Feb1994" classname="sit707_tasks.DateUtilTest" time="0.009">
+    <system-out><![CDATA[=================================
+Test ID   : 7B
+Operation : increment()
+Input     : 15-2-1994
+Expected  : 16-2-1994
+Actual    : 16-2-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test1B_1June1994" classname="sit707_tasks.DateUtilTest" time="0.006">
+    <system-out><![CDATA[=================================
+Test ID   : 1B
+Operation : increment()
+Input     : 1-6-1994
+Expected  : 2-6-1994
+Actual    : 2-6-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testLeapYear_Feb28ToFeb29_2024" classname="sit707_tasks.DateUtilTest" time="0.004">
+    <system-out><![CDATA[=================================
+Test ID   : LeapYear1
+Operation : increment()
+Input     : 28-2-2024
+Expected  : 29-2-2024
+Actual    : 29-2-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test5B_31June1994_invalidDate" classname="sit707_tasks.DateUtilTest" time="0.011">
+    <system-out><![CDATA[=================================
+Test ID   : 5B
+Operation : constructor
+Input     : 31-6-1994
+Expected  : RuntimeException
+Actual    : RuntimeException
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test13B_15June2024" classname="sit707_tasks.DateUtilTest" time="0.004">
+    <system-out><![CDATA[=================================
+Test ID   : 13B
+Operation : increment()
+Input     : 15-6-2024
+Expected  : 16-6-2024
+Actual    : 16-6-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testMaxJanuary31ShouldIncrementToFebruary1" classname="sit707_tasks.DateUtilTest" time="0.059">
+    <system-out><![CDATA[Before increment: 31 January 2024
+=================================
+Test ID   : 1B
+Operation : increment()
+Input     : 31-1-2024
+Expected  : 1-2-2024
+Actual    : 1-2-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testLeapYear_Feb29ToMarch1_2024" classname="sit707_tasks.DateUtilTest" time="0.005">
+    <system-out><![CDATA[=================================
+Test ID   : LeapYear2
+Operation : increment()
+Input     : 29-2-2024
+Expected  : 1-3-2024
+Actual    : 1-3-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testStudentName" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : Name
+Operation : student id
+Input     : Nephat Komu Muriithi
+Expected  : Not null
+Actual    : Nephat Komu Muriithi
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test12B_15June2023" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : 12B
+Operation : increment()
+Input     : 15-6-2023
+Expected  : 16-6-2023
+Actual    : 16-6-2023
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test4B_30June1994_shouldGoToJuly1" classname="sit707_tasks.DateUtilTest" time="0.004">
+    <system-out><![CDATA[=================================
+Test ID   : 4B
+Operation : increment()
+Input     : 30-6-1994
+Expected  : 1-7-1994
+Actual    : 1-7-1994
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="testNominalJanuary" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : NominalJan
+Operation : increment()
+Input     : 25-1-2024
+Expected  : 26-1-2024
+Actual    : 26-1-2024
+=================================
+]]></system-out>
+  </testcase>
+  <testcase name="test11B_15June1701" classname="sit707_tasks.DateUtilTest" time="0.003">
+    <system-out><![CDATA[=================================
+Test ID   : 11B
+Operation : increment()
+Input     : 15-6-1701
+Expected  : 16-6-1701
+Actual    : 16-6-1701
+=================================
+]]></system-out>
+  </testcase>
+</testsuite>
