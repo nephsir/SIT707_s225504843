@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.4
+X-COMMENT: Main-Class will be added automatically by build
+Class-Path: lib/commons-logging-1.0.4.jar lib/logback-core-0.9.14.jar 
+ lib/mysql-connector-java-5.1.17-bin.jar lib/j8583.jar lib/slf4j-api-1
+ .6.1.jar lib/nls.jar lib/commons-codec-1.6.jar
+Created-By: 1.8.0_40-b26 (Oracle Corporation)
+Main-Class: com.nls.bridge.NlsBridge
+
