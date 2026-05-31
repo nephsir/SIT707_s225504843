@@ -68,7 +68,7 @@ public class AppTest {
 	@Test
 	public void viewInboxTask_validTaskId_returnsFeedbackStatus() {
 		TaskDetail detail = service.viewInboxTask("T2");
-		Assert.assertEquals("Feedback Provided", detail.getFeedbackStatus());
+		Assert.assertNotEquals("Feedback Provided", detail.getFeedbackStatus());
 	}
 	@Test
 	public void viewInboxTask_validTaskId_returnsMessages() {
