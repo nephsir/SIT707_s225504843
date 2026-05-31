@@ -27,7 +27,8 @@ jobs:
         run: mvn clean test --batch-mode
       - name: Build JAR
         run: mvn package -DskipTests --batch-mode
- notify-success:
+        
+  notify-success:
     runs-on: ubuntu-latest
     needs: build-and-test
     if: success()
